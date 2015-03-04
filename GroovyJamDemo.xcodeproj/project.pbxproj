@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21B53EA1AA1E4BC00363615 /* denpa_sakura.mov in Resources */ = {isa = PBXBuildFile; fileRef = C21B53E91AA1E4BC00363615 /* denpa_sakura.mov */; };
+		C21B53EC1AA2998100363615 /* bgm_title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C21B53EB1AA2998100363615 /* bgm_title.mp3 */; };
+		C21B53EE1AA2A0F200363615 /* cont@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21B53ED1AA2A0F200363615 /* cont@2x.png */; };
+		C21B53F01AA2B34500363615 /* groobeebar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21B53EF1AA2B34400363615 /* groobeebar@2x.png */; };
+		C21B53F21AA2B58900363615 /* denpa_pic1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21B53F11AA2B58900363615 /* denpa_pic1@2x.png */; };
+		C282D8BC1AA1CD3A0077DC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282D8BB1AA1CD3A0077DC6D /* AppDelegate.swift */; };
+		C282D8C11AA1CD3A0077DC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C282D8BF1AA1CD3A0077DC6D /* Main.storyboard */; };
+		C282D8C31AA1CD3A0077DC6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C282D8C21AA1CD3A0077DC6D /* Images.xcassets */; };
+		C282D8C61AA1CD3A0077DC6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C282D8C41AA1CD3A0077DC6D /* LaunchScreen.xib */; };
+		C282D8D21AA1CD3B0077DC6D /* GroovyJamDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282D8D11AA1CD3B0077DC6D /* GroovyJamDemoTests.swift */; };
+		C282D8DC1AA1CD910077DC6D /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282D8DB1AA1CD910077DC6D /* AVPlayerView.swift */; };
+		C282D8DE1AA1CDC20077DC6D /* Shiggy Jr. - Saturday night to Sunday morning.mov in Resources */ = {isa = PBXBuildFile; fileRef = C282D8DD1AA1CDC20077DC6D /* Shiggy Jr. - Saturday night to Sunday morning.mov */; };
+		C282D8E01AA1CECD0077DC6D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282D8DF1AA1CECD0077DC6D /* ViewController2.swift */; };
+		C2A6B9DB1AA2EAC000C1D2D7 /* logo_fake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9DA1AA2EAC000C1D2D7 /* logo_fake@2x.png */; };
+		C2A6B9E21AA2F3D600C1D2D7 /* bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9DC1AA2F3D600C1D2D7 /* bottom@2x.png */; };
+		C2A6B9E31AA2F3D600C1D2D7 /* L_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9DD1AA2F3D600C1D2D7 /* L_top@2x.png */; };
+		C2A6B9E41AA2F3D600C1D2D7 /* logo_base@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9DE1AA2F3D600C1D2D7 /* logo_base@2x.png */; };
+		C2A6B9E51AA2F3D600C1D2D7 /* logo_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9DF1AA2F3D600C1D2D7 /* logo_center@2x.png */; };
+		C2A6B9E61AA2F3D600C1D2D7 /* R_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9E01AA2F3D600C1D2D7 /* R_top@2x.png */; };
+		C2A6B9E71AA2F3D600C1D2D7 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9E11AA2F3D600C1D2D7 /* title@2x.png */; };
+		C2A6B9F11AA3058700C1D2D7 /* cont2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9F01AA3058700C1D2D7 /* cont2@2x.png */; };
+		C2A6B9F41AA305AA00C1D2D7 /* Breakbot - Baby I'm Yours feat. Irfane.mov in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9F21AA305AA00C1D2D7 /* Breakbot - Baby I'm Yours feat. Irfane.mov */; };
+		C2A6B9F51AA305AA00C1D2D7 /* tokyojihen.mov in Resources */ = {isa = PBXBuildFile; fileRef = C2A6B9F31AA305AA00C1D2D7 /* tokyojihen.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C282D8CC1AA1CD3B0077DC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C282D8AE1AA1CD3A0077DC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C282D8B51AA1CD3A0077DC6D;
+			remoteInfo = GroovyJamDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C21B53E91AA1E4BC00363615 /* denpa_sakura.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = denpa_sakura.mov; sourceTree = "<group>"; };
+		C21B53EB1AA2998100363615 /* bgm_title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_title.mp3; sourceTree = "<group>"; };
+		C21B53ED1AA2A0F200363615 /* cont@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cont@2x.png"; sourceTree = "<group>"; };
+		C21B53EF1AA2B34400363615 /* groobeebar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groobeebar@2x.png"; sourceTree = "<group>"; };
+		C21B53F11AA2B58900363615 /* denpa_pic1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denpa_pic1@2x.png"; sourceTree = "<group>"; };
+		C282D8B61AA1CD3A0077DC6D /* GroovyJamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroovyJamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C282D8BA1AA1CD3A0077DC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C282D8BB1AA1CD3A0077DC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C282D8C01AA1CD3A0077DC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C282D8C21AA1CD3A0077DC6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C282D8C51AA1CD3A0077DC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C282D8CB1AA1CD3B0077DC6D /* GroovyJamDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroovyJamDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C282D8D01AA1CD3B0077DC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C282D8D11AA1CD3B0077DC6D /* GroovyJamDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroovyJamDemoTests.swift; sourceTree = "<group>"; };
+		C282D8DB1AA1CD910077DC6D /* AVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		C282D8DD1AA1CDC20077DC6D /* Shiggy Jr. - Saturday night to Sunday morning.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Shiggy Jr. - Saturday night to Sunday morning.mov"; sourceTree = "<group>"; };
+		C282D8DF1AA1CECD0077DC6D /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C2A6B9DA1AA2EAC000C1D2D7 /* logo_fake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_fake@2x.png"; sourceTree = "<group>"; };
+		C2A6B9DC1AA2F3D600C1D2D7 /* bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom@2x.png"; sourceTree = "<group>"; };
+		C2A6B9DD1AA2F3D600C1D2D7 /* L_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L_top@2x.png"; sourceTree = "<group>"; };
+		C2A6B9DE1AA2F3D600C1D2D7 /* logo_base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_base@2x.png"; sourceTree = "<group>"; };
+		C2A6B9DF1AA2F3D600C1D2D7 /* logo_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_center@2x.png"; sourceTree = "<group>"; };
+		C2A6B9E01AA2F3D600C1D2D7 /* R_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R_top@2x.png"; sourceTree = "<group>"; };
+		C2A6B9E11AA2F3D600C1D2D7 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@2x.png"; sourceTree = "<group>"; };
+		C2A6B9F01AA3058700C1D2D7 /* cont2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cont2@2x.png"; sourceTree = "<group>"; };
+		C2A6B9F21AA305AA00C1D2D7 /* Breakbot - Baby I'm Yours feat. Irfane.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Breakbot - Baby I'm Yours feat. Irfane.mov"; sourceTree = "<group>"; };
+		C2A6B9F31AA305AA00C1D2D7 /* tokyojihen.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tokyojihen.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C282D8B31AA1CD3A0077DC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C282D8C81AA1CD3B0077DC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C282D8AD1AA1CD3A0077DC6D = {
+			isa = PBXGroup;
+			children = (
+				C282D8B81AA1CD3A0077DC6D /* GroovyJamDemo */,
+				C282D8CE1AA1CD3B0077DC6D /* GroovyJamDemoTests */,
+				C282D8B71AA1CD3A0077DC6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C282D8B71AA1CD3A0077DC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C282D8B61AA1CD3A0077DC6D /* GroovyJamDemo.app */,
+				C282D8CB1AA1CD3B0077DC6D /* GroovyJamDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C282D8B81AA1CD3A0077DC6D /* GroovyJamDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C282D8BB1AA1CD3A0077DC6D /* AppDelegate.swift */,
+				C282D8DB1AA1CD910077DC6D /* AVPlayerView.swift */,
+				C282D8DF1AA1CECD0077DC6D /* ViewController2.swift */,
+				C282D8BF1AA1CD3A0077DC6D /* Main.storyboard */,
+				C282D8C21AA1CD3A0077DC6D /* Images.xcassets */,
+				C282D8C41AA1CD3A0077DC6D /* LaunchScreen.xib */,
+				C21B53EB1AA2998100363615 /* bgm_title.mp3 */,
+				C21B53E91AA1E4BC00363615 /* denpa_sakura.mov */,
+				C2A6B9DC1AA2F3D600C1D2D7 /* bottom@2x.png */,
+				C2A6B9DD1AA2F3D600C1D2D7 /* L_top@2x.png */,
+				C2A6B9DE1AA2F3D600C1D2D7 /* logo_base@2x.png */,
+				C2A6B9DF1AA2F3D600C1D2D7 /* logo_center@2x.png */,
+				C2A6B9F01AA3058700C1D2D7 /* cont2@2x.png */,
+				C2A6B9F21AA305AA00C1D2D7 /* Breakbot - Baby I'm Yours feat. Irfane.mov */,
+				C2A6B9F31AA305AA00C1D2D7 /* tokyojihen.mov */,
+				C2A6B9E01AA2F3D600C1D2D7 /* R_top@2x.png */,
+				C2A6B9E11AA2F3D600C1D2D7 /* title@2x.png */,
+				C2A6B9DA1AA2EAC000C1D2D7 /* logo_fake@2x.png */,
+				C21B53EF1AA2B34400363615 /* groobeebar@2x.png */,
+				C21B53F11AA2B58900363615 /* denpa_pic1@2x.png */,
+				C21B53ED1AA2A0F200363615 /* cont@2x.png */,
+				C282D8DD1AA1CDC20077DC6D /* Shiggy Jr. - Saturday night to Sunday morning.mov */,
+				C282D8B91AA1CD3A0077DC6D /* Supporting Files */,
+			);
+			path = GroovyJamDemo;
+			sourceTree = "<group>";
+		};
+		C282D8B91AA1CD3A0077DC6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C282D8BA1AA1CD3A0077DC6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C282D8CE1AA1CD3B0077DC6D /* GroovyJamDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C282D8D11AA1CD3B0077DC6D /* GroovyJamDemoTests.swift */,
+				C282D8CF1AA1CD3B0077DC6D /* Supporting Files */,
+			);
+			path = GroovyJamDemoTests;
+			sourceTree = "<group>";
+		};
+		C282D8CF1AA1CD3B0077DC6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C282D8D01AA1CD3B0077DC6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C282D8B51AA1CD3A0077DC6D /* GroovyJamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C282D8D51AA1CD3B0077DC6D /* Build configuration list for PBXNativeTarget "GroovyJamDemo" */;
+			buildPhases = (
+				C282D8B21AA1CD3A0077DC6D /* Sources */,
+				C282D8B31AA1CD3A0077DC6D /* Frameworks */,
+				C282D8B41AA1CD3A0077DC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroovyJamDemo;
+			productName = GroovyJamDemo;
+			productReference = C282D8B61AA1CD3A0077DC6D /* GroovyJamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C282D8CA1AA1CD3B0077DC6D /* GroovyJamDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C282D8D81AA1CD3B0077DC6D /* Build configuration list for PBXNativeTarget "GroovyJamDemoTests" */;
+			buildPhases = (
+				C282D8C71AA1CD3B0077DC6D /* Sources */,
+				C282D8C81AA1CD3B0077DC6D /* Frameworks */,
+				C282D8C91AA1CD3B0077DC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C282D8CD1AA1CD3B0077DC6D /* PBXTargetDependency */,
+			);
+			name = GroovyJamDemoTests;
+			productName = GroovyJamDemoTests;
+			productReference = C282D8CB1AA1CD3B0077DC6D /* GroovyJamDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C282D8AE1AA1CD3A0077DC6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kurose Nobuhito";
+				TargetAttributes = {
+					C282D8B51AA1CD3A0077DC6D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C282D8CA1AA1CD3B0077DC6D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C282D8B51AA1CD3A0077DC6D;
+					};
+				};
+			};
+			buildConfigurationList = C282D8B11AA1CD3A0077DC6D /* Build configuration list for PBXProject "GroovyJamDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C282D8AD1AA1CD3A0077DC6D;
+			productRefGroup = C282D8B71AA1CD3A0077DC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C282D8B51AA1CD3A0077DC6D /* GroovyJamDemo */,
+				C282D8CA1AA1CD3B0077DC6D /* GroovyJamDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C282D8B41AA1CD3A0077DC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282D8C11AA1CD3A0077DC6D /* Main.storyboard in Resources */,
+				C2A6B9F51AA305AA00C1D2D7 /* tokyojihen.mov in Resources */,
+				C2A6B9F41AA305AA00C1D2D7 /* Breakbot - Baby I'm Yours feat. Irfane.mov in Resources */,
+				C2A6B9F11AA3058700C1D2D7 /* cont2@2x.png in Resources */,
+				C2A6B9E41AA2F3D600C1D2D7 /* logo_base@2x.png in Resources */,
+				C2A6B9E61AA2F3D600C1D2D7 /* R_top@2x.png in Resources */,
+				C2A6B9E51AA2F3D600C1D2D7 /* logo_center@2x.png in Resources */,
+				C21B53F21AA2B58900363615 /* denpa_pic1@2x.png in Resources */,
+				C21B53F01AA2B34500363615 /* groobeebar@2x.png in Resources */,
+				C282D8C61AA1CD3A0077DC6D /* LaunchScreen.xib in Resources */,
+				C282D8C31AA1CD3A0077DC6D /* Images.xcassets in Resources */,
+				C282D8DE1AA1CDC20077DC6D /* Shiggy Jr. - Saturday night to Sunday morning.mov in Resources */,
+				C21B53EE1AA2A0F200363615 /* cont@2x.png in Resources */,
+				C2A6B9E31AA2F3D600C1D2D7 /* L_top@2x.png in Resources */,
+				C2A6B9E71AA2F3D600C1D2D7 /* title@2x.png in Resources */,
+				C21B53EC1AA2998100363615 /* bgm_title.mp3 in Resources */,
+				C2A6B9DB1AA2EAC000C1D2D7 /* logo_fake@2x.png in Resources */,
+				C21B53EA1AA1E4BC00363615 /* denpa_sakura.mov in Resources */,
+				C2A6B9E21AA2F3D600C1D2D7 /* bottom@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C282D8C91AA1CD3B0077DC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C282D8B21AA1CD3A0077DC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282D8DC1AA1CD910077DC6D /* AVPlayerView.swift in Sources */,
+				C282D8E01AA1CECD0077DC6D /* ViewController2.swift in Sources */,
+				C282D8BC1AA1CD3A0077DC6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C282D8C71AA1CD3B0077DC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C282D8D21AA1CD3B0077DC6D /* GroovyJamDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C282D8CD1AA1CD3B0077DC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C282D8B51AA1CD3A0077DC6D /* GroovyJamDemo */;
+			targetProxy = C282D8CC1AA1CD3B0077DC6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C282D8BF1AA1CD3A0077DC6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C282D8C01AA1CD3A0077DC6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C282D8C41AA1CD3A0077DC6D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C282D8C51AA1CD3A0077DC6D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C282D8D31AA1CD3B0077DC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C282D8D41AA1CD3B0077DC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C282D8D61AA1CD3B0077DC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GroovyJamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C282D8D71AA1CD3B0077DC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GroovyJamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C282D8D91AA1CD3B0077DC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GroovyJamDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroovyJamDemo.app/GroovyJamDemo";
+			};
+			name = Debug;
+		};
+		C282D8DA1AA1CD3B0077DC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GroovyJamDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroovyJamDemo.app/GroovyJamDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C282D8B11AA1CD3A0077DC6D /* Build configuration list for PBXProject "GroovyJamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C282D8D31AA1CD3B0077DC6D /* Debug */,
+				C282D8D41AA1CD3B0077DC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C282D8D51AA1CD3B0077DC6D /* Build configuration list for PBXNativeTarget "GroovyJamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C282D8D61AA1CD3B0077DC6D /* Debug */,
+				C282D8D71AA1CD3B0077DC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C282D8D81AA1CD3B0077DC6D /* Build configuration list for PBXNativeTarget "GroovyJamDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C282D8D91AA1CD3B0077DC6D /* Debug */,
+				C282D8DA1AA1CD3B0077DC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C282D8AE1AA1CD3A0077DC6D /* Project object */;
+}
